@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 7, in script
+    define t = character("Trace Ebert")
+  File "game/script.rpy", line 7, in <module>
+    define t = character("Trace Ebert")
+NameError: name 'character' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 7, in script
+    define t = character("Trace Ebert")
+  File "/Applications/renpy-8.1.3-sdk/renpy/ast.py", line 2508, in execute
+    self.set()
+  File "/Applications/renpy-8.1.3-sdk/renpy/ast.py", line 2522, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "/Applications/renpy-8.1.3-sdk/renpy/python.py", line 1146, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 7, in <module>
+    define t = character("Trace Ebert")
+NameError: name 'character' is not defined
+
+macOS-14.3-arm64-arm-64bit arm64
+Ren'Py 8.1.3.23091805
+deez 1.0
+Sat Jan  6 22:48:15 2024
