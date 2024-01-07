@@ -23,7 +23,7 @@ label start:
     # directory.
 
     show trace mad
-    
+
     show eileen happy
     
 
@@ -32,6 +32,9 @@ label start:
     trace "You've done fucked it boy."
 
     trace "Once you add a sum bitches, pictures, riz, and music, you can release it to the world!"
+
+        
+    show eileen happy
 
     e "now look ill kill you bitch"
     
